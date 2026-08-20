@@ -7,38 +7,44 @@
     <title>Document</title>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
-</head>
+</head> 
 
 <body>
 
     <div id="calculator">
-        <div id="display">0123</div>
+        <div id="display">0</div>
 
         <div id="buttons">
             <div class="numButtons">
-                <button id="one" type="button">7</button>
-                <button id="two" type="button">8</button>
-                <button id="three" type="button">9</button>
-                <button id="four" type="button">4</button>
-                <button id="five" type="button">5</button>
-                <button id="six" type="button">6</button>
-                <button id="seven" type="button">1</button>
-                <button id="eight" type="button">2</button>
-                <button id="nine" type="button">3</button>
-                <button id="zero" type="button">0</button>
+                <button class="digit" id="seven" type="button">7</button>
+                <button class="digit" id="eight" type="button">8</button>
+                <button class="digit" id="nine" type="button">9</button>
+                <button class="digit" id="four" type="button">4</button>
+                <button class="digit" id="five" type="button">5</button>
+                <button class="digit" id="six" type="button">6</button>
+                <button class="digit" id="one" type="button">1</button>
+                <button class="digit" id="two" type="button">2</button>
+                <button class="digit" id="three" type="button">3</button>
+                <button class="digit" id="zero" type="button">0</button>
+                <button id="decimal" type="button">.</button>
+                <button id="backSpace" type="button">&#x2B05;</button>
             </div>
 
             <div class="otherButtons">
-                <div><button id="clear">AC</button></div>
-                <button type="button">+</button>
-                <button type="button">-</button>
-                <button type="button">&times;</button>
-                <button type="button">&divide;</button>
+                <div><button id="clear" type="button">AC</button></div>
+                <button class="operator" id="add" type="button">+</button>
+                <button class="operator" id="subtract" type="button">-</button>
+                <button class="operator" id="multiply" type="button">&times;</button>
+                <button class="operator" id="divide" type="button">&divide;</button>
 
-                <button id="equalTo">=</button>
+                <button id="equalTo" type="button">=</button>
             </div>
 
         </div>
+
+        <div id="creator">
+    <a href="https://github.com/smojumder99" target="_blank" rel="noopener noreferrer">by Snehasish Mojumder</a>
+</div>
     </div>
 
 </body>

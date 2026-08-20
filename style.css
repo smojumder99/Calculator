@@ -5,6 +5,11 @@ body{
   justify-content: center;
   align-items: center;
   
+  background-color: #1e1e24; 
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: 30px 30px; 
 }
 
 button, div{
@@ -17,7 +22,7 @@ button, div{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 15px 8px;
+    padding: 15px 8px 2px 8px;
     width: max-content;
     gap: 20px 0px;
     border: 1px solid black;
@@ -30,7 +35,7 @@ button, div{
   height: 60px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 40px;
   border: 2px solid black;
   display: flex;
   align-items: center;
@@ -79,9 +84,8 @@ align-content: flex-start;
 }
 
 #clear{
-  background-color: darkslateblue;
+  background-color: darkgray;
   width: 165px;
-  /* aspect-ratio: 1/1; */
   height: 60px;
 }
 
@@ -91,9 +95,27 @@ align-content: flex-start;
   aspect-ratio: 2/1;
 }
 
-#zero{
-  width: 120px;
-  aspect-ratio: 2/1;
-  margin: 0px auto ;
+#creator {
+  text-align: center; 
 }
+
+#creator a {
+
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 14px;
+  
+  color: #555; 
+  
+  text-decoration: none; 
+  font-weight: bold;
+  
+  transition: color 0.3s ease; 
+}
+
+
+#creator a:hover {
+  color: orangered; 
+  text-decoration: underline;
+}
+
 
