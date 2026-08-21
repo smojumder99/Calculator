@@ -26,7 +26,7 @@ let result = null;
 let previousOperator = null; 
 let previousSecondOperand = null;
 
-const MAX_DIGITS = 14; 
+const MAX_DIGITS = 12; 
 
 function formatNumber(numString) {
   if (numString === null || numString === undefined || numString === "NaN") return numString;
